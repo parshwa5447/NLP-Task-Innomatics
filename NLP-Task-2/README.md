@@ -46,7 +46,7 @@ Two classical NLP feature extraction methods are used:
 - Creates a vocabulary from all words
 - Represents each document based on word occurrence counts
 
-### TF-IDF (Term Frequency–Inverse Document Frequency)
+### TF-IDF (Term Frequencyâ€“Inverse Document Frequency)
 - Weighs important words higher
 - Reduces the influence of very common words
 
@@ -122,8 +122,8 @@ nltk.download('stopwords')
 ```text
 NLP-Task-2/
 +-- Dataset/
-¦   +-- IMDb movies.csv
-¦   +-- IMDb ratings.csv
+Â¦   +-- IMDb movies.csv
+Â¦   +-- IMDb ratings.csv
 +-- main.ipynb
 +-- README.md
 ```
@@ -135,16 +135,3 @@ By completing this project, you will learn:
 - How to train and evaluate multiple ML classifiers
 - How to compare models using Precision, Recall, and F1 Score
 - How to build a practical sentiment analysis workflow for real-world text
-
-## 14. Author
-**Your Name**  
-Machine Learning & NLP Enthusiast
-
-(Replace with your name, GitHub profile, or LinkedIn link.)
-
-## 15. License
-This project is licensed under the **MIT License**.  
-You can add a `LICENSE` file in the repository root for full license text.
-
-## 16. Final Note
-This project demonstrates how **NLP preprocessing + feature engineering + Machine Learning** can be combined to build an effective sentiment analysis system. ??
